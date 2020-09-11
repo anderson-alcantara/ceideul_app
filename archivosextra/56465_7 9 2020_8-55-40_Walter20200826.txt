@@ -1,0 +1,17 @@
+/H/190.145.112.71
+
+Estructura         ZESV_SUP_INC008
+Tabla : ZTSV_SUP_INC008
+
+APORTAADI
+
+var rating=sap.ui.getCore().byId("ri_service").getValue();
+SE16
+
+createAdmision
+4212
+wrocham
+Waro202006$
+
+dagudelog
+C0rgdagu@#06032020*

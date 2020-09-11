@@ -1,0 +1,95 @@
+SICF
+DEFAULTHOST SAP DC UI5
+
+ACTIVAR Y ACTUALIZAR BINOCULARES
+AÑADIR SERVICIO SI NO ESTÁ
+
+SAP OPU DATA SAP
+
+
+/sap/opu/odata/sap/C_TRANSPALLOCCOMPLIANCEQ_CDS
+
+spatinoh
+CORG2020*
+
+ZCLIENTESDISTRIBUCION
+
+ZGROUP_TRANSPORT
+
+
+Usuario:spatinoh
+Contraseñá: P1t3n4.2020
+
+
+
+http://corsrvvm-dcp.datacenter.local:8000/sap/bc/ui5_ui5/ui2/ushell/shells/abap/Fiorilaunchpad.html?sap-client=150&sap-language=ES#Shell-home
+
+
+http://corsrvvm-dcp.datacenter.local:8000/sap/bc/ui5_ui5/sap/arsrvc_upb_admn/main.html?sap-client=150#/Catalog/X-SAP-UI2-CATALOGPAGE:SAP_SD_BC_SALES_OVP_DISPL
+
+SAp_TM_BCG_MD
+
+DESDE SAP/BC
+
+
+Nombre serv.técnico            LE_SHP_OUTBOUND_DELI
+LE_SHP_DELIVERY_PICK *	
+ serv.técnico            LE_SHP_OUTBOUND_DEL
+bre serv.técnico            LE_SHP_OD_LIST_SRV
+
+savereferencia
+enableRef habilitó control
+
+
+
+ZCatalog_transporte
+ZGROUP_TRANSP
+
+SAP_TM_BC_OM
+
+
+FreightOrder
+manageTendering
+Web Dynpro
+Licitación - Pool de trabajo
+/SCMTMS/WDA_POWL_OVP
+S4TM
+
+displayTransportExecutionAnalyticalOverview
+
+ZGroup_TRANSP
+
+ZCatalog_COM
+
+
+Zcontrato_Zaida
+Zordencompra_Zaida
+Zevaprov_Zaida
+Zoverviewcompra_Zaida
+Zplanificacion_Zaira
+Zprocesotrabajo_Zaira
+Zentregaent_Zaira
+Zfactura_Zaira
+
+ZROLZAIDA
+
+
+209
+
+
+
+
+
+/SSB/SMART_BUSINESS_RUNTIME_SRV
+
+MENSAJEFINALMENOR6=¡Muchas gracias por tus comentarios! Los comentarios e ideas de nuestros clientes están en primer lugar. Si nos lo permites, nos comunicaremos contigo para saber qué podemos mejorar para ir más allá de tus expectativas.
+MENSAJEFINALMENOR8=¡Muchas gracias por tus comentarios! Son la clave para mejorar nuestros procesos y buscar las maneras de que tu experiencia sea cada vez más satisfactoria.
+MENSAJEFINAL10=
+
+agregar nombre y validacion login
+
+
+
+
+hmayorga
+CORG2020-180
