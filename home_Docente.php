@@ -2,6 +2,14 @@
 <html lang="es">
    <!-- Basic -->
    <head>
+   <style>
+   canvas{
+
+width:1000px !important;
+height:500px !important;
+
+}
+   </style>
       
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -237,11 +245,11 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="pogoSlider" id="js-main-slider">
-                     <div class="pogoSlider-slide" style="background-image:url(images/slider_4.png);">
+                     <div class="pogoSlider-slide" style="background-image:url(images/slider_4.png); margin-bottom:500px;">
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
-                                 <div class="slide_text" style="margin-top: 200px;" >
+                                 <div class="slide_text" style="margin-top: 100px;" >
                                     <h6 style="font-size: 20px; color: #aa1a1a;" >Centro de Emprendimiento, Innovación y Desarrollo Empresarial</h6>
                                     <h3 style="color: #aa1a1a;">CEIDEUL</h3>
                                     <h4 style="color: #aa1a1a;">Universidad Libre</h4>
@@ -256,7 +264,7 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
-                                 <div class="slide_text" style="margin-top: 200px;" >
+                                 <div class="slide_text" style="margin-top: 100px;" >
                                     <h6 style="font-size: 20px; color: #aa1a1a;" >Centro de Emprendimiento, Innovación y Desarrollo Empresarial</h6>
                                     <h3 style="color: #aa1a1a;">CEIDEUL</h3>
                                     <h4 style="color: #aa1a1a;">Universidad Libre</h4>
@@ -348,6 +356,48 @@
          </div> -->
          <!-- end section -->
          <!-- section -->
+
+
+
+
+
+ <!-- section -->
+ <div class="section about_section layout_padding padding_top_0">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full">
+                        <div class="heading_main text_align_center margin-bottom_30">
+                           <h2><br>Tipos de usuarios registrados</h2>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-10 offset-lg-1" style="">
+                  <canvas id="myChart"></canvas>
+                  </div>
+               </div>
+               <br>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="full text_align_center">
+                     <img class="img-responsive" style="border-radius: 40px; width: 900px; height: 500px;" src="images/drink-864958_1920.jpg" alt="#" />
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end section -->
+
+
+
+
+
+
+
+
+
+         
          <div class="section about_section layout_padding padding_top_0">
             <div class="container">
                <div class="row">
@@ -726,7 +776,103 @@ function volverinicio(){
    }else if(tipo=="Externo"){
       window.location="home_Externo.php";
 }
+else if(tipo=="Admin"){
+      window.location="home_Admin.php";
+}
 }
  </script>  
+ <script type="text/javascript" src="js/Chart.bundle.min.js"></script>
+ <script>
+ <?php 
+require_once "php/conexion.php";
+$conexion=conexion();
+$sqlEst="SELECT * FROM tb_usuarios WHERE tipo_usuario='Estudiante'";
+$sqlDoc="SELECT * FROM tb_usuarios WHERE tipo_usuario='Docente'";
+$sqlEgre="SELECT * FROM tb_usuarios WHERE tipo_usuario='Egresado'";
+$sqlExt="SELECT * FROM tb_usuarios WHERE tipo_usuario='Externo'";
+$array;
+if ($result=mysqli_query($conexion,$sqlEst))
+  {
+     
+  // Return the number of rows in result set
+  $rowcount=mysqli_num_rows($result);
+  $array[]=$rowcount;
+
+  // Free result set
+
+  }
+
+  if ($result=mysqli_query($conexion,$sqlDoc))
+  {
+     
+  // Return the number of rows in result set
+  $rowcount=mysqli_num_rows($result);
+  $array[]=$rowcount;
+
+  // Free result set
+
+  }
+
+  if ($result=mysqli_query($conexion,$sqlEgre))
+  {
+     
+  // Return the number of rows in result set
+  $rowcount=mysqli_num_rows($result);
+  $array[]=$rowcount;
+
+  // Free result set
+
+  }
+
+  if ($result=mysqli_query($conexion,$sqlExt))
+  {
+     
+  // Return the number of rows in result set
+  $rowcount=mysqli_num_rows($result);
+  $array[]=$rowcount;
+
+  // Free result set
+
+  }
+
+?>
+
+        </script>
+<script>
+var foo = <?php echo json_encode($array); ?>;
+
+
+
+
+              var ctx = document.getElementById("myChart");
+              var myChart = new Chart(ctx, {
+                  type: 'horizontalBar',
+                  data: {
+                      labels: ["Estudiantes", "Docentes", "Egresados","Externos"],
+                      datasets: [{
+                          label: 'Tipos de usuario',
+                          backgroundColor: ["#931515", "#154593", "#118013", "#C2C719"],
+                          data: foo,
+                        
+                      }]
+                  },
+                
+
+                  options: {
+    scales: {
+        xAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+    },
+    legend: {
+        display: false
+    }
+}
+
+              });
+
+</script>
    </body>
 </html>

@@ -161,7 +161,7 @@
                        <li><a href="forms/f_DiagAppOfimatica.php" target="_blank">Formato de Diagnostico de Aplicaciones Ofimaticas E Informatica</a></li>
                        <li><a href="forms/f_AnalisisDisePtrabajo.php" target="_blank">Formato de Análisis Para El Diseño de Puestos de Trabajo</a></li>
                        <li><a href="forms/f_perfilacion.php" target="_blank">Formato de Perfilación de Puestos de Trabajo</a></li>
-                       <li><a href="forms/f_analisisEntorno.php" target="_blank">Formato de análisis Del Entorno</a></li>
+                       <li><a href="forms/f_analisisEntorno.php" target="_blank">Formato de análisis del Entorno</a></li>
                        <li><a href="forms/f_BalanceScoreCard.php" target="_blank">Formato de Balance Scorecard</a></li>
                        <li><a href="forms/f_identificacionMercado.php" target="_blank">Formato de Identificación de Mercado</a></li>
                        <li><a href="forms/f_ishikawa.php" target="_blank">Formato de Diagrama de Ishikawa / Espina de Pescado</a></li>
@@ -767,6 +767,9 @@ function volverinicio(){
       window.location="home_Docente.php";
    }else if(tipo=="Externo"){
       window.location="home_Externo.php";
+}
+else if(tipo=="Admin"){
+      window.location="home_Admin.php";
 }
 }
  </script>  

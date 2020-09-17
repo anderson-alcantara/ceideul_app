@@ -54,95 +54,19 @@
       <!-- END LOADER -->
       <div class="wrapper">
       <nav id="sidebar">
-      <li><a href="home_Admin.php"  style="cursor:pointer;">Inicio</a></li>
-      <ul class="nav__list">
-         <li>
-              <input id="group-1er" type="checkbox" hidden />
-              <label for="group-1er"><span class="fa fa-angle-right"></span>Sobre CEIDEUL</label>
-              <ul class="group-list">
-              <li style="background-color:#353535;"><a href="sc_catedra_emprendimieto.php">Cátedra deemprendimiento</a></li>
-              <li style="background-color:#353535;"><a href="sc_elevator_pitch.php">Elevator Pitch</a></li>
-              <li style="background-color:#353535;"><a href="sc_feria_empresarial.php">Feria empresarial</a></li>
-              <li style="background-color:#353535;"><a href="sc_opcion_grado.php">Opción degrado creación deempresa</a></li>
-              <li style="background-color:#353535;"><a href="sc_proyeccion_social.php">Proyección social</a></li>
-              <li style="background-color:#353535;"><a href="sc_consultorio.php">Consultorio</a></li>
-              <li style="background-color:#353535;"><a href="sc_asesoria.php">Asesoría</a></li>
-              <li style="background-color:#353535;"><a href="sc_innovacion.php">Innovación</a></li>
-              <!--Extensión-->
-              <!--Clúster Fami-Pyme-->
-                <li>
-                </li>
-              </ul>
-         <ul class="nav__list">
-            <li>
-              <input id="group-1" type="checkbox" hidden />
-              <label for="group-1"><span class="fa fa-angle-right"></span>Mi perfil</label>
-              <ul class="group-list">
-                <li style="background-color:#353535;"><a href="Editar_Perfil.php">Editar Perfil</a></li>
-                <li><a href="index_Admin.php" style="background-color:#353535;">Cerrar sesión</a></li>
-                <li>
-                </li>
-              </ul>
-            </li>
+        
+        <ul class="nav__list">
+        <li><a onclick="volverinicio()" style="cursor:pointer;">Inicio</a></li>
 
+     <li><a href="agregar_docente.php">Agregar Docente</a></li>
+     <li><a href="ver_docentes.php">Ver Lista de Docentes</a></li>
+     <li><a href="index_Admin.php" style="background-color:#353535;">Cerrar sesión</a></li>
 
-             
-            
-  
-            <!-- <label for="group-3"><span class="fa fa-angle-right"></span> First level</label>
-            <ul class="group-list">
-              <li>
-              <li><a href="#">1st level item</a></li>
-              <li><a href="#">1st level item</a></li>
-              <input id="sub-group-3" type="checkbox" hidden />
-              <label for="sub-group-3"><span class="fa fa-angle-right"></span> Second level</label>
-              <ul class="sub-group-list">
-                <li><a href="#">2nd level nav item</a></li>
-                <li><a href="#">2nd level nav item</a></li>
-                <li><a href="#">2nd level nav item</a></li>
-                <li>
-                  <input id="sub-sub-group-3" type="checkbox" hidden />
-                  <label for="sub-sub-group-3"><span class="fa fa-angle-right"></span> Third level</label>
-                  <ul class="sub-sub-group-list">
-                    <li><a href="#">3rd level nav item</a></li>
-                    <li><a href="#">3rd level nav item</a></li>
-                    <li><a href="#">3rd level nav item</a></li>
-                  </ul>
-                </li>
-              </ul>
-              </li>
-            </ul>
-            </li>
-            <li>
-            <input id="group-4" type="checkbox" hidden />
-            <label for="group-4"><span class="fa fa-angle-right"></span> Elevator Pitch</label>
-            <ul class="group-list">
-              <li>
-              <li><a href="#">1st level item</a></li>
-              <input id="sub-group-4" type="checkbox" hidden />
-              <label for="sub-group-4"><span class="fa fa-angle-right"></span> Second level</label>
-              <ul class="sub-group-list">
-                <li><a href="#">2nd level nav item</a></li>
-                <li><a href="#">2nd level nav item</a></li>
-              </ul>
-              </li>
-            </ul>
-            </li>
-            <ul class="group-list">
-               <li>
-               <li><a href="#">1st level item</a></li>
-               <input id="sub-group-4" type="checkbox" hidden />
-               <label for="sub-group-4"><span class="fa fa-angle-right"></span> Second level</label>
-               <ul class="sub-group-list">
-                 <li><a href="#">2nd level nav item</a></li>
-                 <li><a href="#">2nd level nav item</a></li>
-               </ul>
-               </li>
-             </ul>
-          </ul> -->
-         
+             </li>
+           </ul>
+         </li>
 
-      </nav>
+     </nav>
       <div id="content">
 
 
@@ -494,7 +418,7 @@ $(document).ready(function(){
 				return false;
 
 			}else if(filelength <=0){
-            alertify.alert("Debe subir el archivo dehoja devida").setHeader('<em>  </em> '); 
+            alertify.alert("Debe subir el archivo de hoja de vida").setHeader('<em>  </em> '); 
 				return false;
 			}
       

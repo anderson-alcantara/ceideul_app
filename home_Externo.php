@@ -234,11 +234,11 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="pogoSlider" id="js-main-slider">
-                     <div class="pogoSlider-slide" style="background-image:url(images/slider_4.png);">
+                     <div class="pogoSlider-slide" style="background-image:url(images/slider_4.png); margin-bottom:500px;">
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
-                                 <div class="slide_text" style="margin-top: 200px;" >
+                                 <div class="slide_text" style="margin-top: 100px;" >
                                     <h6 style="font-size: 20px; color: #aa1a1a;" >Centro de Emprendimiento, Innovación y Desarrollo Empresarial</h6>
                                     <h3 style="color: #aa1a1a;">CEIDEUL</h3>
                                     <h4 style="color: #aa1a1a;">Universidad Libre</h4>
@@ -253,7 +253,7 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
-                                 <div class="slide_text" style="margin-top: 200px;" >
+                                 <div class="slide_text" style="margin-top: 100px;" >
                                     <h6 style="font-size: 20px; color: #aa1a1a;" >Centro de Emprendimiento, Innovación y Desarrollo Empresarial</h6>
                                     <h3 style="color: #aa1a1a;">CEIDEUL</h3>
                                     <h4 style="color: #aa1a1a;">Universidad Libre</h4>
@@ -723,6 +723,9 @@ function volverinicio(){
       window.location="home_Docente.php";
    }else if(tipo=="Externo"){
       window.location="home_Externo.php";
+}
+else if(tipo=="Admin"){
+      window.location="home_Admin.php";
 }
 }
 

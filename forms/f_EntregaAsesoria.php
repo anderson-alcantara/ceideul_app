@@ -30,7 +30,7 @@
 <div id="pag1">
   <!--Titulo princiapl-->
   <div style="">
-<div class="form__title" style="font-weight:bold; font-size:25px"><a id="nombre_form">FORMATO DE INICIO DE ASESORÍA EMPRESARIAL</a></div>
+<div class="form__title" style="font-weight:bold; font-size:25px"><a id="nombre_form">FORMATO DE ENTREGA DE ASESORIA</a></div>
 <p style="color: red;">FOR-AC-003</p>
 </div>
 <hr style="color:red; background-color:red;">

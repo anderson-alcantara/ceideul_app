@@ -122,7 +122,7 @@
       <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">PROBLEMAS DE ASESORÍA (A) *</label>
+      <label for="inputEmail4" class="required">PROBLEMAS DE ASESORÍA (A) </label>
       <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
     </div>
   </div>

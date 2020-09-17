@@ -54,69 +54,83 @@
       <!-- END LOADER -->
       <div class="wrapper">
       <nav id="sidebar">
-      <li><a onclick="volverinicio()" style="cursor:pointer;">Inicio</a></li>
-      <ul class="nav__list">
-         <li>
-              <input id="group-1er" type="checkbox" hidden />
-              <label for="group-1er"><span class="fa fa-angle-right"></span>Sobre CEIDEUL</label>
-              <ul class="group-list">
-              <li style="background-color:#353535;"><a href="sc_catedra_emprendimieto.php">Cátedra de emprendimiento</a></li>
-              <li style="background-color:#353535;"><a href="sc_elevator_pitch.php">Elevator Pitch</a></li>
-              <li style="background-color:#353535;"><a href="sc_feria_empresarial.php">Feria empresarial</a></li>
-              <li style="background-color:#353535;"><a href="sc_opcion_grado.php">Opción de grado creación de empresa</a></li>
-              <li style="background-color:#353535;"><a href="sc_proyeccion_social.php">Proyección social</a></li>
-              <li style="background-color:#353535;"><a href="sc_consultorio.php">Consultorio</a></li>
-              <li style="background-color:#353535;"><a href="sc_asesoria.php">Asesoría</a></li>
-              <li style="background-color:#353535;"><a href="sc_innovacion.php">Innovación</a></li>
-              <!--Extensión-->
-              <!--Clúster Fami-Pyme-->
-                <li>
-                </li>
-              </ul>
-         <ul class="nav__list">
-            <li>
-              <input id="group-1" type="checkbox" hidden />
-              <label for="group-1"><span class="fa fa-angle-right"></span>Mi perfil</label>
-              <ul class="group-list">
-                <li style="background-color:#353535;"><a href="Editar_Perfil.php">Editar Perfil</a></li>
-                <li><a href="index.php" style="background-color:#353535;">Cerrar sesión</a></li>
-                <li>
-                </li>
-              </ul>
-            </li>
+        
+        <ul class="nav__list">
+        <li><a onclick="volverinicio()" style="cursor:pointer;">Inicio</a></li>
+     <ul class="nav__list">
+        <li>
+             <input id="group-1er" type="checkbox" hidden />
+             <label for="group-1er"><span class="fa fa-angle-right"></span>Sobre CEIDEUL</label>
+             <ul class="group-list">
+             <li style="background-color:#353535;"><a href="sc_catedra_emprendimieto.php">Cátedra de emprendimiento</a></li>
+             <li style="background-color:#353535;"><a href="sc_elevator_pitch.php">Elevator Pitch</a></li>
+             <li style="background-color:#353535;"><a href="sc_feria_empresarial.php">Feria empresarial</a></li>
+             <li style="background-color:#353535;"><a href="sc_opcion_grado.php">Opción de grado creación de empresa</a></li>
+             <li style="background-color:#353535;"><a href="sc_proyeccion_social.php">Proyección social</a></li>
+             <li style="background-color:#353535;"><a href="sc_consultorio.php">Consultorio</a></li>
+             <li style="background-color:#353535;"><a href="sc_asesoria.php">Asesoría</a></li>
+             <li style="background-color:#353535;"><a href="sc_innovacion.php">Innovación</a></li>
+             <!--Extensión-->
+             <!--Clúster Fami-Pyme-->
+               <li>
+               </li>
+             </ul>
+     <li id="li_verRegistros"><a href="Admin_forms.php">Ver registros</a></li>
+     <li><a href="ver_comentarios.php">Notificaciones</a></li>
+        <ul class="nav__list">
+        <li>
+             <input id="group-1" type="checkbox" hidden />
+             <label for="group-1"><span class="fa fa-angle-right"></span>Mi perfil</label>
+             <ul class="group-list">
+             <li style="background-color:#353535;"><a href="Editar_Perfil.php">Editar Perfil</a></li>
+               <li><a href="index.php" style="background-color:#353535;">Cerrar sesión</a></li>
+               <li>
+               </li>
+             </ul>
+           </li>
 
 
-             
-            
-  
-            <!-- <label for="group-3"><span class="fa fa-angle-right"></span> First level</label>
-            <ul class="group-list">
-              <li>
-              <li><a href="#">1st level item</a></li>
-              <li><a href="#">1st level item</a></li>
-              <input id="sub-group-3" type="checkbox" hidden />
-              <label for="sub-group-3"><span class="fa fa-angle-right"></span> Second level</label>
-              <ul class="sub-group-list">
-                <li><a href="#">2nd level nav item</a></li>
-                <li><a href="#">2nd level nav item</a></li>
-                <li><a href="#">2nd level nav item</a></li>
-                <li>
-                  <input id="sub-sub-group-3" type="checkbox" hidden />
-                  <label for="sub-sub-group-3"><span class="fa fa-angle-right"></span> Third level</label>
-                  <ul class="sub-sub-group-list">
-                    <li><a href="#">3rd level nav item</a></li>
-                    <li><a href="#">3rd level nav item</a></li>
-                    <li><a href="#">3rd level nav item</a></li>
-                  </ul>
-                </li>
-              </ul>
-              </li>
-            </ul>
-            </li>
-            <li>
-            <input id="group-4" type="checkbox" hidden />
-            <label for="group-4"><span class="fa fa-angle-right"></span> Elevator Pitch</label>
-            <ul class="group-list">
+
+           <!-- <label for="group-3"><span class="fa fa-angle-right"></span> First level</label>
+           <ul class="group-list">
+             <li>
+             <li><a href="#">1st level item</a></li>
+             <li><a href="#">1st level item</a></li>
+             <input id="sub-group-3" type="checkbox" hidden />
+             <label for="sub-group-3"><span class="fa fa-angle-right"></span> Second level</label>
+             <ul class="sub-group-list">
+               <li><a href="#">2nd level nav item</a></li>
+               <li><a href="#">2nd level nav item</a></li>
+               <li><a href="#">2nd level nav item</a></li>
+               <li>
+                 <input id="sub-sub-group-3" type="checkbox" hidden />
+                 <label for="sub-sub-group-3"><span class="fa fa-angle-right"></span> Third level</label>
+                 <ul class="sub-sub-group-list">
+                   <li><a href="#">3rd level nav item</a></li>
+                   <li><a href="#">3rd level nav item</a></li>
+                   <li><a href="#">3rd level nav item</a></li>
+                 </ul>
+               </li>
+             </ul>
+             </li>
+           </ul>
+           </li>
+           <li>
+           <input id="group-4" type="checkbox" hidden />
+           <label for="group-4"><span class="fa fa-angle-right"></span> Elevator Pitch</label>
+           <ul class="group-list">
+             <li>
+             <li><a href="#">1st level item</a></li>
+             <input id="sub-group-4" type="checkbox" hidden />
+             <label for="sub-group-4"><span class="fa fa-angle-right"></span> Second level</label>
+             <ul class="sub-group-list">
+               <li><a href="#">2nd level nav item</a></li>
+               <li><a href="#">2nd level nav item</a></li>
+             </ul>
+             </li>
+           </ul>
+           </li>
+           <ul class="group-list">
               <li>
               <li><a href="#">1st level item</a></li>
               <input id="sub-group-4" type="checkbox" hidden />
@@ -127,22 +141,88 @@
               </ul>
               </li>
             </ul>
-            </li>
-            <ul class="group-list">
-               <li>
-               <li><a href="#">1st level item</a></li>
-               <input id="sub-group-4" type="checkbox" hidden />
-               <label for="sub-group-4"><span class="fa fa-angle-right"></span> Second level</label>
+         </ul> -->
+         <li id="li_formularios">
+           <input id="group-2" type="checkbox" hidden  />
+           <label for="group-2"><span class="fa fa-angle-right"></span>Formularios</label>
+           <ul class="group-list">
+             <li>
+               <input id="sub-group-2" type="checkbox" hidden onclick="onhandleformularios('sub-group-2')" />
+               <label for="sub-group-2" style="background-color: #aa1a1a6c;"><span class="fa fa-angle-right"></span> Asesoría y Consultoría</label>
                <ul class="sub-group-list">
-                 <li><a href="#">2nd level nav item</a></li>
-                 <li><a href="#">2nd level nav item</a></li>
-               </ul>
-               </li>
-             </ul>
-          </ul> -->
-         
 
-      </nav>
+               <li>
+                    
+                    <input id="sub-sub-group-2" type="checkbox" hidden />
+                    <label for="sub-sub-group-2"><span class="fa fa-angle-right"></span>asesoría y consultoría empresarial</label>
+                    <ul class="sub-sub-group-list" style="font-size: 12px;">
+                      <li><a href="forms/f_diagAsesoria.php" target="_blank">Formato de Diagnostico Para Asesoría Empresarial</a></li>
+                      <li><a href="forms/f_inicioAsesoriaEmp.php" target="_blank">Formato de Inicio de Asesoría Empresarial</a></li>
+                      <li><a href="forms/f_EntregaAsesoria.php" target="_blank">Formato de Entrega de Asesoría</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                     
+                     <input id="sub-sub-group-3" type="checkbox" hidden />
+                     <label for="sub-sub-group-3"><span class="fa fa-angle-right"></span>herramientas para la asesoría y consultoría empresarial</label>
+                  <ul class="sub-sub-group-list" style="font-size: 12px;">
+                       <li><a href="forms/f_DiagAppOfimatica.php" target="_blank">Formato de Diagnostico de Aplicaciones Ofimaticas E Informatica</a></li>
+                       <li><a href="forms/f_AnalisisDisePtrabajo.php" target="_blank">Formato de Análisis Para El Diseño de Puestos de Trabajo</a></li>
+                       <li><a href="forms/f_perfilacion.php" target="_blank">Formato de Perfilación de Puestos de Trabajo</a></li>
+                       <li><a href="forms/f_analisisEntorno.php" target="_blank">Formato de análisis Del Entorno</a></li>
+                       <li><a href="forms/f_BalanceScoreCard.php" target="_blank">Formato de Balance Scorecard</a></li>
+                       <li><a href="forms/f_identificacionMercado.php" target="_blank">Formato de Identificación de Mercado</a></li>
+                       <li><a href="forms/f_ishikawa.php" target="_blank">Formato de Diagrama de Ishikawa / Espina de Pescado</a></li>
+                       <li><a href="forms/f_CaracterizacionProcesos.php" target="_blank">Formato de Caracterización de Procesos</a></li>
+                       <li><a href="forms/f_EvaluacionMarcoEstrategico.php" target="_blank" >Formato de Evaluación de Marco Estratégico</a></li>
+                       <li><a href="forms/f_DiagInterno.php" target="_blank">Formato de Diagnostico Interno</a></li>
+                       <li><a href="forms/f_Dofa.php" target="_blank">Formato de Matriz Dofa</a></li>
+                       <li><a href="forms/f_CadenaValor.php" target="_blank">Formato de Cadena de Valor</a></li>
+                       <li><a href="forms/f_Canvas.php" target="_blank">Formato de Modelo Canvas</a></li>
+                       <li><a href="forms/f_SolicitudAccionesPreventivas.php">Formato de Solicitud de Acciones Preventivas Y de Mejora</a></li>
+                     </ul>
+                   </li>
+                </ul>
+
+                
+
+
+              
+
+              
+
+                <input id="sub-group-8" type="checkbox" hidden onclick="onhandleformularios('sub-group-8')"/>
+               <label for="sub-group-8" style="background-color: #aa1a1a6c;"><span class="fa fa-angle-right"></span> Feria Empresarial</label>
+               <ul class="sub-group-list">
+                  <li><a href="forms/f_inscripcionFeriaEmpresarial.php" target="_blank">Formato Inscripción Feria Empresarial</a></li>
+                 <li><a href="forms/f_ProtocoloExpositores.php" target="_blank">Formato Protocolo Expositores Feria Empresarial</a></li>
+                 <li><a href="forms/f_formatoInventarioFeriaEmpresarial.php" target="_blank">Formato de Inventario Feria Empresarial</a></li>
+                 <li>
+                    
+                   <input id="sub-sub-group-9" type="checkbox" hidden />
+                   <label for="sub-sub-group-9"><span class="fa fa-angle-right"></span>Evaluación Empresarial</label>
+                   <ul class="sub-sub-group-list" style="font-size: 12px;">
+                     <li><a href="forms/f_evaluacionFeriaEmpresarial.php" target="_blank">Formato de Evaluación Feria Empresarial</a></li>
+                     <li><a href="f_satisfaccionDelExpositor.php" target="_blank">Formato de Satisfacción Del Expositor</a></li>
+                   </ul>
+                 </li>
+               </ul>
+
+
+
+
+          
+
+
+
+
+
+
+             </li>
+           </ul>
+         </li>
+
+     </nav>
       <div id="content">
 
 
@@ -162,7 +242,7 @@
          <!-- End Banner -->
          <!-- section -->
          <div class="section about_section layout_padding padding_top_0">
-            <div class="container" style="width:100%; margin-top:200px;">
+            <div class="container" style="width:100%;">
             <form class="w3-container w3-card-4 w3-light-grey">
             <h2>Editar Perfil</h2>
   <p><label>Nombres</label>
@@ -419,7 +499,7 @@
 
               if(value!==idformulario){
                $("#"+value).prop("checked", false);
-               debugger
+              
               }  
             
             });
@@ -498,5 +578,24 @@ console.log(cadena);
 
 
  </script>  
+ <script>
+ 
+ var perfil='<?php echo $_SESSION['tipo_usuario']; ?>';
+ 
+if(perfil!=="Estudiante"){
+   $("#li_catedraempren").attr("hidden",true);
+   $("#li_opciongrado").attr("hidden",true);
+   $("#li_practica").attr("hidden",true);
+}
+if(perfil=="Admin"){
+   $("#li_formularios").attr("hidden",true);
+}
+if(perfil!=="Docente"){
+   $("#li_verRegistros").attr("hidden",true);
+
+}
+
+
+ </script> 
    </body>
 </html>

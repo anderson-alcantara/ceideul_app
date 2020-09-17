@@ -105,10 +105,9 @@
       <label for="inputEmail4" class="required">ÁREA (A)</label>
       <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
     </div>
-    
     <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">PRINCIPALES PROBLEMAS (A)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
+    <label for="exampleFormControlSelect1" class="required">PRINCIPALES PROBLEMAS (A)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required></textarea>
     </div>
   </div>
 
@@ -120,10 +119,11 @@
 
 
 <div class="form-row">
-<div class="form-group col-md-6">
+    <div class="form-group col-md-6">
     <label for="exampleFormControlSelect1" class="required">POSIBLES CAUSAS (A)</label>
-    <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required></textarea>
     </div>
+    
     <div class="form-group col-md-6">
       <label for="exampleFormControlSelect1" class="required">NIVEL DE INCIDENCIA (A)</label>
       <select class="form-control" id="exampleFormControlSelect1" required>
@@ -138,6 +138,18 @@
     </div>
   </div>
 
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES PROBLEMA ANTERIOR (A)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
+    </div>
+    
+    <div class="form-group col-md-6">
+      <label for="exampleFormControlSelect1" class=""></label>
+
+    </div>
+  </div>
+
 
 <div class="form-row">
     <div class="form-group col-md-6">
@@ -145,17 +157,18 @@
       <input type="text" class="form-control" id="inputEmail4" placeholder="" >
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4">PRINCIPALES PROBLEMAS (B)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+    <label for="exampleFormControlSelect1" class="">PRINCIPALES PROBLEMAS (B)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
     </div>
+    
   </div>
 
 <hr>
 
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">POSIBLES CAUSAS (B)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">PRINCIPALES CAUSAS (B)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
     </div>
     <div class="form-group col-md-6">
       <label for="exampleFormControlSelect1">NIVEL DE INCIDENCIA (B)</label>
@@ -175,9 +188,9 @@
 <hr>
 
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">OBSERVACIONES PROBLEMA ANTERIOR (B)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES PROBLEMA ANTERIOR (B)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
     </div>
     <div class="form-group col-md-6">
       <label for="inputEmail4">ÁREA (C)</label>
@@ -187,13 +200,13 @@
 <hr>
 
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">PRINCIPALES PROBLEMAS (C)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">PRINCIPALES PROBLEMAS (C)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4">POSIBLES CAUSAS (C)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+    <label for="exampleFormControlSelect1" class="">POSIBLES CAUSAS (C)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
     </div>
   </div>
 <hr>
@@ -212,68 +225,68 @@
       <input type="text" class="form-control" id="inputEmail4" placeholder="" hidden >
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4">OBSERVACIONES PROBLEMA ANTERIOR (C)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES PROBLEMA ANTERIOR (C)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" ></textarea>
     </div>
   </div>
 <hr>
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">ANTECEDENTES DE SOLUCIÓN (A)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required >
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="required">ANTECEDENTES DE SOLUCIÓN (A)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required ></textarea>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">COMPROMISOS / ACCIONES A SEGUIR (A)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required >
-    </div>
-  </div>
-<hr>
-<div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">OBSERVACIONES (A)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required >
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">ANTECEDENTES DE SOLUCIÓN (B)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
-    </div>
-  </div>
-<hr>
-
-
-
-
-
-
-
-
-<div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">COMPROMISOS / ACCIONES A SEGUIR (B)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">OBSERVACIONES (B)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+    <label for="exampleFormControlSelect1" class="required">COMPROMISOS / ACCIONES A SEGUIR (A)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required ></textarea>
     </div>
   </div>
 <hr>
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">ANTECEDENTES DE SOLUCIÓN (C)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES (A)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4">COMPROMISOS / ACCIONES A SEGUIR (C)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+    <label for="exampleFormControlSelect1" class="">ANTECEDENTES DE SOLUCIÓN (B)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
+    </div>
+  </div>
+<hr>
+
+
+
+
+
+
+
+
+<div class="form-row">
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">COMPROMISOS / ACCIONES A SEGUIR (B)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES (B)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
+    </div>
+  </div>
+<hr>
+<div class="form-row">
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">ANTECEDENTES DE SOLUCIÓN (C)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
+    </div>
+    <div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">COMPROMISOS / ACCIONES A SEGUIR (C)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
     </div>
   </div>
 <hr>
 
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">OBSERVACIONES (C)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES (C)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
     </div>
     <div class="form-group col-md-6">
       <label for="exampleFormControlSelect1" class="required">VENTAS Y MARKETING : Se cuenta con un plan estratégico de marketing y de ventas</label>
@@ -1251,8 +1264,8 @@
       <input type="text" class="form-control" id="inputEmail4" placeholder="" >
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4">OBSERVACIONES ADICIONALES / TEMAS A TRATAR / COMPROMISOS DE LAS PARTES</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" >
+    <label for="exampleFormControlSelect1" class="">OBSERVACIONES ADICIONALES / TEMAS A TRATAR / COMPROMISOS DE LAS PARTES</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;"  ></textarea>
     </div>
 
 

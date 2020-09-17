@@ -160,23 +160,24 @@
 <hr>
 
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">SUBORDINACIÓN (Indique si este puesto de trabajo tiene subordinados y cuáles)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="required">SUBORDINACIÓN (Indique si este puesto de trabajo tiene subordinados y cuáles)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required></textarea>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">SUPERVISIÓN (Indique si este puesto esta bajo supervisión y de qué cargos)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
+    <label for="exampleFormControlSelect1" class="required">SUPERVISIÓN (Indique si este puesto esta bajo supervisión y de qué cargos)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required></textarea>
     </div>
   </div>
 
 <hr>
 
 <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4" class="required">COMUNICACIONES COLATERALES (Indique los pares con los cuales debe manejar comunicación directa)</label>
-      <input type="text" class="form-control" id="inputEmail4" placeholder="" required>
+<div class="form-group col-md-6">
+    <label for="exampleFormControlSelect1" class="required">COMUNICACIONES COLATERALES (Indique los pares con los cuales debe manejar comunicación directa)</label>
+    <textarea class="form-control" id="inputEmail4" rows="3" style="white-space: pre-wrap;" required></textarea>
     </div>
+
 
     <div class="form-group col-md-6">
 <label></label>

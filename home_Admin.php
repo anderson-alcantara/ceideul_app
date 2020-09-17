@@ -52,24 +52,7 @@
         
          <ul class="nav__list">
          <li><a onclick="volverinicio()" style="cursor:pointer;">Inicio</a></li>
-      <ul class="nav__list">
-         <li>
-              <input id="group-1er" type="checkbox" hidden />
-              <label for="group-1er"><span class="fa fa-angle-right"></span>Sobre CEIDEUL</label>
-              <ul class="group-list">
-              <li style="background-color:#353535;"><a href="sc_catedra_emprendimieto.php">Cátedra de emprendimiento</a></li>
-              <li style="background-color:#353535;"><a href="sc_elevator_pitch.php">Elevator Pitch</a></li>
-              <li style="background-color:#353535;"><a href="sc_feria_empresarial.php">Feria empresarial</a></li>
-              <li style="background-color:#353535;"><a href="sc_opcion_grado.php">Opción de grado creación de empresa</a></li>
-              <li style="background-color:#353535;"><a href="sc_proyeccion_social.php">Proyección social</a></li>
-              <li style="background-color:#353535;"><a href="sc_consultorio.php">Consultorio</a></li>
-              <li style="background-color:#353535;"><a href="sc_asesoria.php">Asesoría</a></li>
-              <li style="background-color:#353535;"><a href="sc_innovacion.php">Innovación</a></li>
-              <!--Extensión-->
-              <!--Clúster Fami-Pyme-->
-                <li>
-                </li>
-              </ul>
+
       <li><a href="agregar_docente.php">Agregar Docente</a></li>
       <li><a href="ver_docentes.php">Ver Lista de Docentes</a></li>
       <li><a href="index_Admin.php" style="background-color:#353535;">Cerrar sesión</a></li>
@@ -110,7 +93,7 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
-                                 <div class="slide_text" style="margin-top: 200px;" >
+                                 <div class="slide_text" style="margin-top: 80px;" >
                                     <h6 style="font-size: 20px; color: #aa1a1a;" >Centro de Emprendimiento, Innovación y Desarrollo Empresarial</h6>
                                     <h3 style="color: #aa1a1a;">CEIDEUL</h3>
                                     <h4 style="color: #aa1a1a;">Universidad Libre</h4>
@@ -125,7 +108,7 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
-                                 <div class="slide_text" style="margin-top: 200px;" >
+                                 <div class="slide_text" style="margin-top: 80px;" >
                                     <h6 style="font-size: 20px; color: #aa1a1a;" >Centro de Emprendimiento, Innovación y Desarrollo Empresarial</h6>
                                     <h3 style="color: #aa1a1a;">CEIDEUL</h3>
                                     <h4 style="color: #aa1a1a;">Universidad Libre</h4>
@@ -594,6 +577,9 @@ function volverinicio(){
       window.location="home_Docente.php";
    }else if(tipo=="Externo"){
       window.location="home_Externo.php";
+}
+else if(tipo=="Admin"){
+      window.location="home_Admin.php";
 }
 }
  </script>  
